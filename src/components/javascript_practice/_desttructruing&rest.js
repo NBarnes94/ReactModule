@@ -30,5 +30,5 @@ console.log(objString, objNum, objObj, objNaN);
 let {testString, testNum, testObject, testNaN} = testObj;
 console.log(testString, testNum, testObject, testNaN);
 
-let newObj = { newString; 'more strings', anotherString: 'this is a string', ...testObj}
+let newObj = { newString: 'more strings', anotherString: 'this is a string', ...testObj}
 console.log(newObj);

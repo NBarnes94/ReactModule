@@ -8,6 +8,9 @@ import Sidebar from './components/site/Sidebar';
 import{
   BrowserRouter as Router
 } from 'react-router-dom';
+// import FunctionalComponentDemo from './components/concepts/FunctionalComponentes/FunctionalComponentDemo';
+
+
 
 function App() {
   return (
@@ -16,7 +19,8 @@ function App() {
       <Router>
         <Sidebar />
       </Router>
-      <Footer />
+      <Footer /> 
+      {/* <FunctionalComponentDemo /> */}
     </div>
   );
 };
